@@ -21,6 +21,7 @@ public class DisturbService extends Service {
         ApplicationInstance.setAlarm(this);
 
         return START_STICKY;
+//        return START_NOT_STICKY;
     }
 
     @Override
